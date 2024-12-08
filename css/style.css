@@ -63,7 +63,7 @@ body {
 }
 
 header {
-  background-image: url(/samplesite/img/main.jpg);
+  background-image: url(/img/main.jpg);
   background-size: cover;
   margin: 0;
   padding: 180px 0;
@@ -103,7 +103,9 @@ h2::before {
   width: 50px;
 }
 
-button {
+.product .flex .flex-txt button,
+.about .flex .flex-txt button,
+.online .flex .flex-txt button {
   margin-top: 1rem;
   padding: 15px 40px;
   background-color: black;
@@ -118,7 +120,9 @@ button:hover {
   transition: 0.5s;
 }
 
-button::after {
+.product .flex .flex-txt button::after,
+.about .flex .flex-txt button::after,
+.online .flex .flex-txt button::after {
   content: "";
   width: 8px;
   height: 8px;
@@ -131,7 +135,7 @@ button::after {
 }
 
 .coscept-img {
-  background-image: url(/samplesite/img/main.jpg);
+  background-image: url(/img/main.jpg);
   background-size: cover;
 }
 
@@ -282,4 +286,24 @@ footer {
   .online .flex .flex-img {
     padding: 0 1.875em;
   }
+}
+
+/* slick */
+.slick-prev {
+  left: -45px !important;
+}
+
+.slick-next {
+  right: -20px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 45px !important;
+  color: #222 !important;
+}
+
+#js-slider {
+  width: calc(100% - 5.63em) !important;
+  margin: 0 auto 30px;
 }
