@@ -52,10 +52,8 @@ img {
 
 /* ここから */
 body {
-  /* max-width: 980px; */
   margin: 0 auto;
   background-color: #f5f5f5;
-  border: solid 1px;
   overflow-wrap: anywhere;
   font-family: "Klee One", cursive, "Avenir", "Helvetica Neue", "Helvetica",
     "Arial", "Hiragino Sans", "ヒラギノ角ゴシック", YuGothic, "Yu Gothic",
