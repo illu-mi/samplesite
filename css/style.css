@@ -131,7 +131,7 @@ button::after {
 }
 
 .coscept-img {
-  background-image: url(/img/main.jpg);
+  background-image: url(/samplesite/img/main.jpg);
   background-size: cover;
 }
 
