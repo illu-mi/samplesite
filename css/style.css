@@ -63,7 +63,7 @@ body {
 }
 
 header {
-  background-image: url(/img/main.jpg);
+  background-image: url(/samplesite/img/main.jpg);
   background-size: cover;
   margin: 0;
   padding: 180px 0;
