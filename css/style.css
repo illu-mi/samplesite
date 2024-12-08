@@ -105,7 +105,8 @@ h2::before {
 
 .product .flex .flex-txt button,
 .about .flex .flex-txt button,
-.online .flex .flex-txt button {
+.online .flex .flex-txt button,
+article .flex button {
   margin-top: 1rem;
   padding: 15px 40px;
   background-color: black;
@@ -122,7 +123,8 @@ button:hover {
 
 .product .flex .flex-txt button::after,
 .about .flex .flex-txt button::after,
-.online .flex .flex-txt button::after {
+.online .flex .flex-txt button::after,
+article .flex button::after {
   content: "";
   width: 8px;
   height: 8px;
